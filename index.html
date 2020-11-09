@@ -14,6 +14,9 @@
             #date {
                 color: #ffff00;
             }
+            a {
+                color: #6ebbb1;
+            }
         </style>
         <script>
             const url = "https://api.nasa.gov/planetary/apod?hd=True&api_key=eWSk1UXKxqyvWuXxv0zx4ZUt0OM9iPk6txz63C9S";
@@ -57,5 +60,13 @@
         <div id="photo"></div>
         <p id="date"></p>
         <p id="explanation"></p>
+        <hr />
+        <p>The API I selected is NASA’s Astronomy Picture of the Day—each day, 
+            it has a new image and description. I found it on the 
+            <a href="https://api.nasa.gov/">NASA API page</a>. 
+            The options I used for the API request were hd=true (opting for the high 
+            resolution image) and the api_key. This API would be helpful for a casual 
+            educational resource for learning a little about space everyday or for 
+            setting a background image to a different cool picture everyday.</p>
     </body>
 </html>
